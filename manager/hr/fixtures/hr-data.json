@@ -1,0 +1,74 @@
+[
+{
+  "model": "hr.employer",
+  "pk": 1,
+  "fields": {
+    "created_at": "2024-09-15T14:05:23.804Z",
+    "updated_at": "2024-09-15T14:52:03.806Z",
+    "name": "Adobe",
+    "owner": 2
+  }
+},
+{
+  "model": "hr.employer",
+  "pk": 2,
+  "fields": {
+    "created_at": "2024-09-15T14:05:31.210Z",
+    "updated_at": "2024-09-15T16:54:34.348Z",
+    "name": "google",
+    "owner": 3
+  }
+},
+{
+  "model": "hr.employer",
+  "pk": 3,
+  "fields": {
+    "created_at": "2024-09-15T14:06:02.118Z",
+    "updated_at": "2024-09-15T16:54:23.800Z",
+    "name": "Facebook",
+    "owner": 3
+  }
+},
+{
+  "model": "hr.employer",
+  "pk": 5,
+  "fields": {
+    "created_at": "2024-09-15T16:43:12.848Z",
+    "updated_at": "2024-09-15T16:54:58.913Z",
+    "name": "Amazon",
+    "owner": 2
+  }
+},
+{
+  "model": "hr.employer",
+  "pk": 7,
+  "fields": {
+    "created_at": "2024-09-15T16:44:13.301Z",
+    "updated_at": "2024-09-15T16:44:13.301Z",
+    "name": "CrowdStrike",
+    "owner": 2
+  }
+},
+{
+  "model": "hr.employee",
+  "pk": 1,
+  "fields": {
+    "created_at": "2024-09-15T14:47:43.114Z",
+    "updated_at": "2024-09-15T14:47:43.114Z",
+    "employer": 1,
+    "user": 2,
+    "wage": "100.00"
+  }
+},
+{
+  "model": "hr.employee",
+  "pk": 3,
+  "fields": {
+    "created_at": "2024-09-15T16:19:32.017Z",
+    "updated_at": "2024-09-15T16:19:32.017Z",
+    "employer": 3,
+    "user": 3,
+    "wage": "200.00"
+  }
+}
+]

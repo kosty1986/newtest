@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <h2>Register New User</h2>
+  <form method="post" action="{% url 'users:account:register' %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form | crispy }}
+    <input type="submit" value="Register">
+  </form>
+
+
+{% endblock %}
